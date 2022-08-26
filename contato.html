@@ -18,15 +18,18 @@
           </li>
         </ul>
       </nav>
-      
-        <form>
             <label for="nome">Nome:</label>
-            <input id="nome" type="text">
+            <input id="nome" type="text" onkeyup= "validaNome()">
+            <div id="txtNome"></div>
             <label for="email">E-mail:</label>
-            <input id="email" type="e-mail">
+            <input type="email" id="email" onkeyup= "validaEmail()">
+            <div id="txtEmail"></div>
             <label for="telefone">Telefone:</label>
-            <input id="telefone" type="text">
+            <input id="telefone" type="text" onkeyup= "validaTelefone()">
+            <div id="txtTelefone"></div>
             <button id="botaoEnviar">Enviar</button>
-        </form>   
+            <div id="txtEnviar"></div>
+        
+<script type="text/javascript" src="js/script.js"></script>  
 </body>
 </html>
